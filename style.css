@@ -1,0 +1,119 @@
+body {
+    background-color: antiquewhite;
+}
+
+#titles {
+    position: absolute;
+    left: 472px;
+    top: 10px;
+    font-family: "Times New Roman", serif;
+}
+
+.yetiButton {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 27%;
+}
+
+.yetiButton img {
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: auto;
+}
+
+.yetiButton #yetiTransparentButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    opacity: 75%;
+    padding: 140px 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.bigfootButton {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 27%;
+}
+
+.bigfootButton img {
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: auto;
+}
+
+.bigfootButton #bigFootTransparentButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    opacity: 75%;
+    padding: 140px 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.lochnessButton {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    width: 27%;
+}
+
+.lochnessButton img {
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: auto;
+}
+
+.lochnessButton #lochnessTransparentButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    opacity: 75%;
+    padding: 140px 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.chupacabraButton {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    width: 27%;
+}
+
+.chupacabraButton img { 
+    top: 0px;
+    left: 0px;
+    width: 400px;
+    height: auto;
+}
+
+.chupacabraButton #chupacabraTransparentButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    opacity: 75%;
+    padding: 140px 200px;
+    border: none;
+    cursor: pointer;
+}
+
+#home {
+    position: absolute;
+    top: 380px;
+    left: 640px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
