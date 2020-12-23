@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<script>
-    function changeToYeti () {
-        document.getElementById("content").innerHTML = "";
-        $( "#content" ).load( "yeti.html" );
-    }
-</script>
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <title>Mythical Creatures Exist!</title>
 </head>
 
-<body>
+<body onload="animateYeti()">
     <h1 id="titles" >Proof of the existence of Mythical Creatures</h1>
     <div id="content">
         <div class="yetiButton">
@@ -23,20 +18,21 @@
 
         <div class="bigfootButton">
             <img src="images/bigfoot_picture.jpg" alt="Picture of the mythical Bigfoot">
-            <input type="button" id="bigFootTransparentButton" onclick="location.href='bigfoot.html'"/>
+            <input type="button" id="bigFootTransparentButton" onclick="changeToBigfoot();"/>
         </div>
 
         <div class="lochnessButton">
             <img src="images/lochness_picture.jpg" alt="Picture of the mythical Nessie">
-            <input type="button" id="lochnessTransparentButton" onclick="location.href='lochness.html'"/>
+            <input type="button" id="lochnessTransparentButton" onclick="changeToLochness();"/>
         </div>
 
         <div class="chupacabraButton">
             <img src="images/chupacabra_picture.jpg" alt="Picture of the mythical Chupacabra">
-            <input type="button" id="chupacabraTransparentButton" onclick="location.href='chupacabra.html'"/>
+            <input type="button" id="chupacabraTransparentButton" onclick="changeToChupacabra();"/>
         </div>
     </div>
+    <input type="button" id="home" onclick="changeToHome();" value="Home Page"/>
 
-    <input type="button" id="home" onclick="location.href='index.html'" value="Home Page"/>
+    <div id="animatedYeti">animatedYeti</div>
 </body>
 </html>

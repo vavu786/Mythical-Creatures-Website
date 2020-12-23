@@ -27,8 +27,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: white;
-    opacity: 75%;
+    background-color: transparent;
     padding: 140px 200px;
     border: none;
     cursor: pointer;
@@ -52,8 +51,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: white;
-    opacity: 75%;
+    background-color: transparent;
     padding: 140px 200px;
     border: none;
     cursor: pointer;
@@ -77,8 +75,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: white;
-    opacity: 75%;
+    background-color: transparent;
     padding: 140px 200px;
     border: none;
     cursor: pointer;
@@ -102,8 +99,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: white;
-    opacity: 75%;
+    background-color: transparent;
     padding: 140px 200px;
     border: none;
     cursor: pointer;
@@ -116,4 +112,15 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    cursor: pointer;
 }
+/*
+#animatedYeti {
+    background-image: url("../images/yeti_sprite_1.jpg");
+    width: 1176px;
+    height: 1168px;
+    transform: scale(0.10,0.10);
+    border-radius: 300px;
+    cursor: pointer;
+}
+*/
