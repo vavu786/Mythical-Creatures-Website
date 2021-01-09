@@ -1,5 +1,6 @@
 # Mythical Creatures Website
 Website about many popular mythical creatures.
+See the website here: https://vavu786.github.io/Mythical-Creatures-Website/
 ## In order to run the website on Sublime Text, you need to run a local web server.
 * This is because Sublime Text opens one single file (index.html), so it can't call the javascript.
 ## Running a local web server through Sublime Text on Windows:
