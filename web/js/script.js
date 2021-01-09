@@ -4,22 +4,22 @@ function sleep(ms) {
 
 function changeToYeti () {
     document.getElementById("content").innerHTML = "";
-    $( "#content" ).load( "yeti.html" );
+    $( "#content" ).load( "web/yeti.html" );
 }
 
 function changeToBigfoot () {
     document.getElementById("content").innerHTML = "";
-    $( "#content" ).load( "bigfoot.html" );
+    $( "#content" ).load( "web/bigfoot.html" );
 }
 
 function changeToLochness () {
     document.getElementById("content").innerHTML = "";
-    $( "#content" ).load( "lochness.html" );
+    $( "#content" ).load( "web/lochness.html" );
 }
 
 function changeToChupacabra () {
     document.getElementById("content").innerHTML = "";
-    $( "#content" ).load( "chupacabra.html" );
+    $( "#content" ).load( "web/chupacabra.html" );
 }
 
 function changeToHome () {
@@ -33,10 +33,10 @@ async function animateYeti () {
     yeti_sprite.style.height = "1168px";
     yeti_sprite.style.transform = "scale(0.10,0.10)";
     yeti_sprite.style.borderRadius = "300px";
-    let images = ["url('../images/yeti_sprite_1.jpg')", "url('../images/yeti_sprite_2.jpg')",
-                  "url('../images/yeti_sprite_3.jpg')", "url('../images/yeti_sprite_4.jpg')",
-                  "url('../images/yeti_sprite_5.jpg')", "url('../images/yeti_sprite_6.jpg')",
-                  "url('../images/yeti_sprite_7.jpg')"];
+    let images = ["url('web/images/yeti_sprite_1.jpg')", "url('web/images/yeti_sprite_2.jpg')",
+                  "url('web/images/yeti_sprite_3.jpg')", "url('web/images/yeti_sprite_4.jpg')",
+                  "url('web/images/yeti_sprite_5.jpg')", "url('web/images/yeti_sprite_6.jpg')",
+                  "url('web/images/yeti_sprite_7.jpg')"];
 
     for (let i = 0; i < 280; i++) {
         yeti_sprite.style.backgroundImage = images[i%7];
