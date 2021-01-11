@@ -24,7 +24,7 @@
 * The website should be running!
 * If you already have a process running on port 8080, change the number in webserver.js to a different number, and change the url accordingly. 
 ## Running a local web server through Sublime Text on Mac:
-* Download [Node.js](https://nodejs.org/en/download/) for Mac
+* Download the LTS version of [Node.js](https://nodejs.org/en/download/) for Mac
   * Keep track of the location that Node.js is downloaded (Most likely ```/usr/local/bin/node```).
 * Download the latest code on GitHub (the .zip file) and unzip it.
 * Open Sublime Text, and click "Open Folder" and select the folder you just downloaded from GitHub.
