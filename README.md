@@ -42,6 +42,7 @@
 * At the bottom, it should say "Starting webserver..."
 * Now, type the following url in your web browser: http://localhost:8080/
 * The website should be running!
+* To edit the code, just edit and save your changes, and then restart the website page. That's it!
 * If you already have a process running on port 8080, change the port number in webserver.js to a different number, and change the url accordingly (If you don't know what this means, it doesn't apply)
 ## Running a local web server through Sublime Text on Linux (Ubuntu):
 * Run ```sudo apt install nodejs``` in the terminal
