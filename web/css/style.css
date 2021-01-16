@@ -52,3 +52,8 @@ body {
     border-radius: 100px;
     cursor: pointer;
 }
+
+.BigfootImageBorder{
+    border-width: 2px;
+    border-color: black;
+}
