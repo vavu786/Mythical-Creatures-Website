@@ -57,3 +57,7 @@ body {
     border-width: 2px;
     border-color: black;
 }
+
+.column {
+    display: inline-block;
+}
