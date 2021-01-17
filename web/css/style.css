@@ -54,10 +54,8 @@ body {
 }
 
 .BigfootImageBorder{
-    border-width: 10px;
-    border-color: black;
-}
-
-.column {
-    display: inline-block;
+    border: 10px solid black;
+    position: absolute;
+    right: 0px;
+    top: 250px;
 }
